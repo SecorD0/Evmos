@@ -7,7 +7,7 @@ wallet_name="$evmos_wallet_name"
 wallet_address="$evmos_wallet_address"
 wallet_address_variable="evmos_wallet_address"
 global_rpc="http://167.86.86.48:26657/"
-explorer_url_template="https://explorer.evmos.nodes.guru/validator/"
+explorer_url_template="https://explorer.evmos.org/validators/"
 
 # Default variables
 language="EN"
