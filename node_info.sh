@@ -6,8 +6,8 @@ node_dir="$HOME/.evmosd/"
 wallet_name="$evmos_wallet_name"
 wallet_address="$evmos_wallet_address"
 wallet_address_variable="evmos_wallet_address"
-global_rpc="http://167.86.86.48:26657/"
-explorer_url_template="https://explorer.evmos.org/validators/"
+global_rpc=""
+explorer_url_template="https://www.mintscan.io/evmos/validators/"
 
 # Default variables
 language="EN"
