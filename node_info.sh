@@ -1,7 +1,7 @@
 #!/bin/bash
 # Config
 daemon="`which evmosd`"
-token_name="photon"
+token_name="evmos"
 node_dir="$HOME/.evmosd/"
 wallet_name="$evmos_wallet_name"
 wallet_address="$evmos_wallet_address"
