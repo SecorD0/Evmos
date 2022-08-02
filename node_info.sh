@@ -71,9 +71,9 @@ if [ ! -n "$keyring_backend" ]; then
 	keyring_backend=`$daemon config keyring-backend 2>/dev/null`
 fi
 if [ "$network" == "mainnet" ]; then
-	global_rpc="https://tendermint.bd.evmos.org:26657/"
+	global_rpc="https://rpc-evmos-ia.notional.ventures:443/"
 	explorer_url_template="https://www.mintscan.io/evmos/validators/"
-	current_block=`wget -qO- "${global_rpc}abci_info" | jq -r ".result.response.last_block_height"`
+	current_block=`wget -qO- https://api-evmos.cosmostation.io/v1/blocks?limit=1 | jq ".[0].height"`
 else
 	global_rpc=""
 	explorer_url_template=""
