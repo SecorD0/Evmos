@@ -1104,3 +1104,5 @@ evmos1rdhxvcmtcmwj3pld2tp8sd8ymqr8856uk7nm50	830,99
 evmos1rp60chu3t25l6fxr08l8l8kyqcruaau2sjtjv9	830,99
 evmos1rv97rm3xjemw4larc2l5n0wrptv9upr7f5eqmh	830,99
 evmos1rvszt83ck4xt35pn34fjkeelmxkrqtad3ppxdx	830,99
+
+Total 5558519,03
